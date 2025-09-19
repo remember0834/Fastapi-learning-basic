@@ -12,3 +12,4 @@ class Item(BaseModel):  # Pydantic 모델 정의
 def create_item(item: Item):
     return { "item": item.dict()} # Pydantic 모델을 API에 사용
 
+
